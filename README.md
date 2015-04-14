@@ -24,4 +24,4 @@ https://github.com/insanity54/ipfs-gateway
 
 - [ ] make the damn thing build without err
 - [ ] figure out better solution for hardcoded 'ipfs' hostname in nginx config (nginx container is meant to link to ipfs container)
-- [ ] add mechanism to pin a hash sent as an env var.
+- [ ] add mechanism to pin a hash sent as an env var. This would be used to mirror the site on this node
