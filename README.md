@@ -18,3 +18,10 @@ then what you do is something like
 for the Dockerfile and entrypoint junk go here:
 
 https://github.com/insanity54/ipfs-gateway
+
+
+## TODO
+
+- [ ] make the damn thing build without err
+- [ ] figure out better solution for hardcoded 'ipfs' hostname in nginx config (nginx container is meant to link to ipfs container)
+- [ ] add mechanism to pin a hash sent as an env var.
